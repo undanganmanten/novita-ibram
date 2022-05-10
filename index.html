@@ -24,7 +24,11 @@
     <div id="popup">
         <div class="title">
             <!-- <img src="asset/image/sampul_top.png" alt="" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"> -->
-            <h3 class="p" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">Welcome To</h3>
+            <div class="p nama-undangan">
+                <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">Yth :</h3>
+                <h3 id="to" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">Agung </h3>
+            </div>
+            <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">Welcome To</h3>
             <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">The Wedding Celebration of</h3>
             <h4 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="font-amalfi">Novita & Ibram</h4>                
             <a href="#"  onclick="toggle(), playing()" data-aos="zoom-in" data-aos-duration="3000">
@@ -34,7 +38,7 @@
         </div>
     </div>
     <audio id="song" hidden loop> 
-        <source src="asset/audio/i.mp3" type="audio/mpeg">
+        <!-- <source src="asset/audio/i.mp3" type="audio/mpeg"> -->
     </audio>
     <div id="top">
         <div class="container"> 
@@ -72,7 +76,7 @@
             <img src="asset/image/bride.png" alt="Novita">
             <div class="text-block">
                 <p class="playfair">The Bride:</p>
-                <img src="asset/image//galerry/bride2.jpg" alt="novita">
+                <img src="asset/image//galerry/bride.png" alt="novita">
                 <p class="font-amalfi">Novita</p>
                 <p style="font-family: 'bromello'; font-size: 20px; margin-top: -20px;" >Novita Putri Afrillia, S.Pd.</p>
                 <p class="space">Bpk. H.Suhadak</p>
@@ -83,7 +87,7 @@
             <img src="asset/image/groom.png" alt="Ibram">
             <div class="text-block">
                 <p class="playfair">The Groom:</p>
-                <img src="asset/image//galerry/groom1.jpg" alt="ibram">
+                <img src="asset/image//galerry/groom.png" alt="ibram">
                 <p class="font-amalfi">Ibram</p>
                 <p style="font-family: 'bromello'; font-size: 20px; margin-top: -20px;" >Praka Ahmad Hany Ibramsyah</p>
                 <p class="space">Bpk. Agus Hadi Prayitno, ST.</p>
@@ -165,7 +169,6 @@
         </div>
     </div>
 
-    <iframe width="90%" height="100%" src="https://www.youtube.com/embed/m87E9AgTX7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     <div class="amplop">
@@ -205,8 +208,10 @@
 
     <!-- Swiper -->
 
-    <div class="gallery-photo">
+    <div class="amplop" style="margin-top: 70px;">
         <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Gallery Photo</div>
+    </div>  
+    <div class="gallery-photo">
         <div style="--swiper-navigation-color: rgb(145, 0, 0); --swiper-pagination-color: #fff" class="swiper mySwiper2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -355,7 +360,9 @@
         </div>
     </div> -->
 
-   
+   <div class="video-mempelai">
+        <iframe src="https://www.youtube.com/embed/m87E9AgTX7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
 
     <div class="wish-img" data-aos="fade-up" data-aos-duration="3000">
         <img src="asset/image/wish.png" alt="">
@@ -411,6 +418,10 @@
           slidesPerView: 4,
           freeMode: true,
           watchSlidesProgress: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         });
         var swiper2 = new Swiper(".mySwiper2", {
           loop: true,
@@ -422,6 +433,10 @@
           thumbs: {
             swiper: swiper,
           },
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         });
       </script>
 

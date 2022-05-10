@@ -59,7 +59,7 @@ html{
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background: url("../asset/image/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,6 +214,16 @@ body{
   /* padding-top: 50px; */
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.title .nama-undangan{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.title .nama-undangan h3{
+  margin: 5px;
 }
 
 .title h3{
@@ -1158,6 +1168,7 @@ input[type="radio"] {
 .gallery-photo {
   background: transparent;
   color: #000;
+  margin-top: -10px;
 }
 
 .swiper {
@@ -1175,6 +1186,7 @@ input[type="radio"] {
 .mySwiper2 {
   height: 80%;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .mySwiper {
@@ -1200,6 +1212,18 @@ input[type="radio"] {
   object-fit: cover;
 }
 
+.video-mempelai{
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-mempelai iframe{
+  width: 88%;
+  height: 100%;
+}
 
 @media(max-width: 576px){
 /*  
@@ -1227,7 +1251,7 @@ input[type="radio"] {
     text-align: center;
   }
 
-  .title .p{
+  .title .p, .title .nama-undangan{
     margin-top: -500px;
   }
 
@@ -1275,10 +1299,10 @@ input[type="radio"] {
   }
 
   .bride .text-block img{
-    width: 100px !important;
-    height: 120px !important;
+    width: 130px !important;
+    height: 160px !important;
     margin: 10px 0;
-    box-shadow: 0px 3px 15px rgb(252, 235, 87); 
+    /* box-shadow: 0px 3px 15px rgb(252, 235, 87);  */
     border-radius: 10px; 
   }
 
@@ -1388,7 +1412,7 @@ input[type="radio"] {
   }
 
   body{
-      overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   #task_data{
