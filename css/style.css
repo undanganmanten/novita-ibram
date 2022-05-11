@@ -394,15 +394,15 @@ font-size: 40px;
 
 p{
   font-family: 'Playfair Display', serif;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 
 .space{
   padding-top: 10px;
-  -moz-text-stroke: .2px #000;
-  -webkit-text-stroke: .2px #000;
-  font-family: 'Playfair Display', serif;
-  font-size: 17px;
+  /* -moz-text-stroke: .2px #000;
+  -webkit-text-stroke: .2px #000; */
+  font-family: 'Playfair Display', serif !important;
+  font-size: 25px;
   /* line-height: 20px; */
 }
 
@@ -423,7 +423,7 @@ p{
 
 .font-amalfi{
   font-family: 'amalfi' !important;
-  font-size: 30px !important;
+  font-size: 27px !important;
 }
 
 .font-bromello{
@@ -550,11 +550,13 @@ p{
   justify-content: center;
   width: 100vw;
   margin-top: 10px;
+  /* background-color: #a8a8a8; */
 }
 
 .waktu .akad{
   text-align: right;
-  width: 90%;
+  width: 50%;
+  /* background-color: #1e1e1e; */
 }
 
 .waktu .sabtu{
@@ -562,10 +564,12 @@ p{
   height: 100px;
   width: 0px;
   margin: 0 15px;
+  /* background-color: #B5722C; */
 }
 
 .waktu .resepsi{
   text-align: left;
+  /* background-color: #242f3f; */
 }
 
 .waktu .resepsi span,
@@ -582,6 +586,7 @@ p{
 .waktu .akad p{
   font-size: 15px !important;
   padding: 0 !important;
+  font-family: 'Playfair Display', serif;
 }
 
 .waktu .resepsi p{
@@ -769,7 +774,7 @@ input[type="radio"] {
   background: transparent;
   border: white 1px solid ;
   font-size: 18px !important;
-  font-family: 'Josefin Sans',sans-serif !important;
+  font-family: 'Playfair',serif !important;
   margin-bottom: 0;
   cursor: pointer;
   color: white;
@@ -808,7 +813,7 @@ input[type="radio"] {
   color: #ffffff;
   /* font-family: 'Playfair Display', serif; */
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   padding: 0px 30px;
   margin-bottom: 20px;
@@ -950,8 +955,9 @@ input[type="radio"] {
 .box p{
   color: white;
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:"Playfair", serif;
   padding: 0 20px 10px 20px;
+  font-size: 15px;
 }
 
 .box button{
@@ -960,7 +966,7 @@ input[type="radio"] {
   background: transparent;
   border: white 1px solid ;
   font-size: 20px;
-  font-family: 'Redressed', cursive;
+  font-family: 'Playfair', serif;
   margin-bottom: 20px;
   cursor: pointer;
   color: white;
@@ -979,8 +985,8 @@ input[type="radio"] {
 
 .thankyou h2{
   margin-top: 100px;
-  font-size: 20px;
-  font-family: 'Mitr', sans-serif;
+  font-size: 23px;
+  font-family: 'Playfair', serif;
   color: white;
 }
 
@@ -1273,7 +1279,7 @@ input[type="radio"] {
   }
   
   .title h4{
-    font-size: 35px !important;
+    font-size: 30px !important;
     font-weight: lighter;
   }
 
@@ -1302,7 +1308,7 @@ input[type="radio"] {
   }
 
   .bride img{
-    width: 400px !important;
+    width: 100% !important;
     height: 600px !important;
   }
 
@@ -1316,7 +1322,8 @@ input[type="radio"] {
   }
 
   .text-block p{
-    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;  
   }
 
   .font-amalfi{
@@ -1382,7 +1389,7 @@ input[type="radio"] {
   }
 
   .sorry p{
-    font-size: 15px !important;
+    font-size: 17px !important;
     line-height: 20px;
     padding: 0 10px;
   }
@@ -1396,7 +1403,7 @@ input[type="radio"] {
   }
 
   .box p{
-      font-size: 12px;
+      font-size: 17px;
   }
 
   .box button{
@@ -1413,7 +1420,7 @@ input[type="radio"] {
   }
 
   .thankyou h2{
-      font-size: 15px;
+      font-size: 17px;
   }
 
   .thankyou h5{
