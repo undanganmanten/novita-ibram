@@ -1222,7 +1222,7 @@ input[type="radio"] {
 .gallery-photo {
   background: transparent;
   color: #000;
-  margin-top: -50px;
+  margin-top: -5;
 }
 
 .swiper {
