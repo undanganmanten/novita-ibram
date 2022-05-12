@@ -31,9 +31,10 @@
             <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">Welcome To</h3>
             <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">The Wedding Celebration of</h3>
             <h4 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="font-amalfi">Novita & Ibram</h4>                
-            <a href="#"  onclick="toggle(), playing()" data-aos="zoom-in" data-aos-duration="3000">
+            <button onclick="toggle(), playing()" formtarget="_blank" class="trigger" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"><i class="fa fa-envelope" aria-hidden="true"></i> Open Invitation</button>
+            <!-- <a href="#"  onclick="toggle(), playing()" data-aos="zoom-in" data-aos-duration="3000">
                 <img src="asset/image/open_inv.png" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
-            </a>
+            </a> -->
             <!-- <img src="asset/image/sampul_btm.png" alt=""> -->
         </div>
     </div>
@@ -157,52 +158,27 @@
                     <p>PUKUL 13.00 - selesai WIB</p>
                 </div>
             </div>
-            <div class="kediaman" data-aos="fade-up" data-aos-duration="2500">
-                <span>Lokasi</span>
-                <p>Ds. Laban Kulon Gg II RT 08 | RW 04</p>
-                <p>Kec. Menganti Kab. Gresik-Jawa Timur </p>
-            </div>
-            <a href="https://maps.app.goo.gl/HgaE25yhXcRPUx9v8" target="_blank" data-aos="zoom-in" data-aos-duration="3000">
+            
+            <!-- <a href="https://maps.app.goo.gl/HgaE25yhXcRPUx9v8" target="_blank" data-aos="zoom-in" data-aos-duration="3000">
                 <img src="asset/image/direction.png" alt="">
-            </a>    
+            </a>     -->
         </div>
     </div>
 
-
-
-    <div class="amplop">
-        <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Amplop Digital</div>
-        <p class="amplop-text" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Doa restu anda merupakan karunia yang sangat berarti bagi kami. dan jika memberi adalah ungkapan tanda terimakasih anda, anda dapat memberi kado secara cashless</p>
-        <button class="trigger" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"><i class="fa fa-gift" aria-hidden="true"></i> Kirim Hadiah</button>
-        <div class="modal">
-            <div class="modal-content">
-                <span class="close-button">×</span>
-                <div class="bank">
-                    <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
-                        <img src="asset/image/bca.png" alt="">
-                        <span class="line"></span>
-                        <p id="norek">5085089606</p>
-                        <p>a/n Novita Putri Afrillia</p>
-                        <button class="btn-rek" onclick="copyToClipboard('norek')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
-                    </div>
-                    <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
-                        <img src="asset/image/bri.png" alt="">
-                        <span class="line"></span>
-                        <p id="norek1">741401002447539</p>
-                        <p>a/n Novita Putri Afrillia</p>
-                        <button class="btn-rek" onclick="copyToClipboard('norek1')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
-                    </div>
-                    <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
-                        <img src="asset/image/ovo.png" alt="">
-                        <span class="line"></span>
-                        <p id="norek2">081249211776</p>
-                        <p>a/n Novita Putri Afrillia</p>
-                        <button class="btn-rek" onclick="copyToClipboard('norek2')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
-                    </div>
-                </div>
+    <div class="lokasi" data-aos="fade-up" data-aos-duration="2500">
+        <span>Lokasi</span>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=-7.295383,112.619821&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
+        <p>Ds. Laban Kulon Gg II RT 08 | RW 04</p>
+        <p>Kec. Menganti Kab. Gresik-Jawa Timur </p>
+        <button onclick="javascript:window.open('https://maps.app.goo.gl/HgaE25yhXcRPUx9v8', '_blank');" formtarget="_blank" class="trigger" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"><i class="fa fa-map-marker" aria-hidden="true"></i> Lihat Lokasi</button>
     </div>
+
+
+    
 
 
     <!-- Swiper -->
@@ -327,6 +303,41 @@
         <div class="protokol" data-aos="fade-up" data-aos-duration="3000">
             <img src="asset/image/Prokes.png" alt="">
         </div>
+    </div>
+
+    <div class="amplop">
+        <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Amplop Digital</div>
+        <p class="amplop-text" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Doa restu anda merupakan karunia yang sangat berarti bagi kami. dan jika memberi adalah ungkapan tanda terimakasih anda, anda dapat memberi kado secara cashless</p>
+        <!-- <button class="trigger" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"><i class="fa fa-gift" aria-hidden="true"></i> Kirim Hadiah</button> -->
+        <div class="bank">
+            <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <img src="asset/image/bca.png" alt="">
+                <span class="line"></span>
+                <p id="norek">5085089606</p>
+                <p>a/n Novita Putri Afrillia</p>
+                <button class="btn-rek" onclick="copyToClipboard('norek')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
+            </div>
+            <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <img src="asset/image/bri.png" alt="">
+                <span class="line"></span>
+                <p id="norek1">741401002447539</p>
+                <p>a/n Novita Putri Afrillia</p>
+                <button class="btn-rek" onclick="copyToClipboard('norek1')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
+            </div>
+            <div class="card-bank" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <img src="asset/image/ovo.png" alt="">
+                <span class="line"></span>
+                <p id="norek2">081249211776</p>
+                <p>a/n Novita Putri Afrillia</p>
+                <button class="btn-rek" onclick="copyToClipboard('norek2')"><i class="fa fa-clone" aria-hidden="true"></i> Salin</button>
+            </div>
+        </div>
+        <!-- <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                
+            </div>
+        </div> -->
     </div>
     
     <!-- <div class="rsvp" data-aos="fade-up" data-aos-duration="3000">
